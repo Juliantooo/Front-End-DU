@@ -50,3 +50,19 @@ height:80px;
 background:rgba(0,0,0,0.3);
 border-radius:100%;
 `
+
+export const BtnKelas=styled.button`
+font-size: 1em;
+min-width:140px;
+padding: 0.2em 1em;
+border: none;
+background:inherit;
+font-weight:bolder;
+font-size:22px;
+border-radius:5px;
+color:#fff;
+    &:hover{
+        background:rgba(0,0,0,0.3);
+    }
+`
+

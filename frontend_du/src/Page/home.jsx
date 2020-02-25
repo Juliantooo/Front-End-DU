@@ -5,6 +5,7 @@ import bgHome from '../assets/home.png'
 import KelasMateri from '../Component/kelas_materi'
 import Pemateri from '../Component/pemateri'
 import InfoRegis from '../Component/info_regis'
+import Jadwal from '../Component/jadwal'
 
 class Home extends Component{
     render(){
@@ -15,6 +16,7 @@ class Home extends Component{
                 <KelasMateri/>
                 <Pemateri/>
                 <InfoRegis/>
+                <Jadwal/>
             </div>
         )
     }

@@ -1,9 +1,24 @@
 import React, { Component } from 'react'
 
 class Jadwal extends Component{
+    state={
+        classMenu:[
+            {
+                name : 'Web'
+            },{
+                name : 'Android'
+            },{
+                name : 'Blender'
+            },{
+                name : 'Python'
+            },{
+                name : 'DevOps'
+            },
+        ]
+    }
     render(){
         return(
-            <div className="content jadwal">
+            <div className="content jadwal" style={{width:'140vh'}}>
                 <div className="title">
                     <h1 className="text-center">Jadwal</h1>
                 </div>
@@ -17,3 +32,5 @@ class Jadwal extends Component{
         )
     }
 }
+
+export default Jadwal
