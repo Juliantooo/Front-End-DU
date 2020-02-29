@@ -1,21 +1,12 @@
-.blur{
+.blur {
     -webkit-filter: blur(4px);
     -moz-filter: blur(4px);
     -o-filter: blur(4px);
     -ms-filter: blur(4px);
     filter: blur(4px);
 }
-.front_card{
-    width:380px;
-    height:500px;
-    border-radius:3%
-}
-.beside_card{
-    width:330px;
-    height:440px;
-    border-radius:3%
-}
 
-.card_infoRegis{
-    box-shadow:0px 10px 13px #bec0c4;
+
+.card_infoRegis {
+    box-shadow: 0px 10px 13px #bec0c4;
 }
